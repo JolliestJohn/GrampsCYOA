@@ -14,7 +14,7 @@ def levelzero ():
     if choice == "Yes":
         print("Alright, let's begin")
         levelone()
-    elif choice == "n":
+    elif choice == "No":
         print("Oh well, come back when you are ready to play!")
     else:
         print("Make sure to type Yes or No")
@@ -23,7 +23,7 @@ def levelzero ():
 def levelone():
     print("Gramps is strolling through the Grocery store and finds himself lost. ")
     print("He looks to his right and sees the milk aisle. He looks to the left and sees cleaning products section.")
-    choice = input("Does he go left or right?")
+    choice = input("Does he go left or right? (Left/Right)")
     if choice == "Left":
          print ("")
          leveltwo()
@@ -36,7 +36,7 @@ def levelone():
 
 def leveltwo():
     print("You walk down the cleaning aisle and see the sunshine through the window right above the exit sign for the store. The sun shines down making the metal surfaces glisten and the floors glisten.")
-    choice =input("Does he Keep Walking or Stop")
+    choice =input("Does he Keep Walking or Stop (Keep Walking/Stop)")
     if choice =="Keep Walking":
         print ("")
         levelfour()
@@ -58,7 +58,7 @@ def levelfour():
     print("When Gramps awakens, he finds himself in the same spot except the exit isn't in front of him anymore. He scours the whole store and there is no exit at all.")
     print("")
     print("So Close Yet So Far Ending")
-    (playagain)
+    playagain()
 
 
 
@@ -70,4 +70,4 @@ def levelfive():
     playagain()
 
 #Start game below
-levelzero()
+levelzero() 
