@@ -1,9 +1,42 @@
+def startmenu ():
+  answer = input("Do you want to play through the game or pick a phase? (Play/Pick)")
+  if answer == "Play":
+    levelzero()
+  if answer == "play":
+    levelzero()
+  elif answer == "Pick":
+    print("Currently, only phase 1 is available")
+    choice = input("Do you want to play phase 1 of the game? (Yes/No)")
+    if choice == "Yes":
+      levelzero()
+    if choice == "yes":
+      levelzero()
+    elif choice == "No":
+      print("Oh well, come back when you are ready to play!")
+    elif choice == "no":
+      print("Oh well, come back when you are ready to play!")
+  elif answer == "pick":
+    print("Currently, only phase 1 is available")
+    choice = input("Do you want to play phase 1 of the game? (Yes/No)")
+    if choice == "Yes":
+      levelzero()
+    elif choice == "No":
+      print("Oh well, come back when you are ready to play!")
+  else:
+    print("Make sure to type Play or Pick")
+    startmenu()
+
 def playagain ():
     answer = input("Play again? (Yes/No)")
     if answer == "Yes":
         print ("Okay")
         levelone()
+    if answer == "yes":
+        print ("Okay")
+        levelone()
     elif answer == "No":
+        print ("Oh well, come back when you are ready to give it another shot!")
+    elif answer == "no":
         print ("Oh well, come back when you are ready to give it another shot!")
     else:
         print ("Make sure to type Yes or No")
@@ -14,7 +47,12 @@ def levelzero ():
     if choice == "Yes":
         print("Alright, let's begin")
         levelone()
+    if choice == "yes":
+        print("Alright, let's begin")
+        levelone()
     elif choice == "No":
+        print("Oh well, come back when you are ready to play!")
+    elif choice == "no":
         print("Oh well, come back when you are ready to play!")
     else:
         print("Make sure to type Yes or No")
@@ -27,7 +65,13 @@ def levelone():
     if choice == "Left":
          print ("")
          leveltwo()
+    if choice == "left":
+         print ("")
+         leveltwo()
     elif choice == "Right":
+         print ("Gramps decides to investigate the milk aisle to figure out how to get out of the Grocery store. He reasons that since milk aisles are usually in the back of stores, if he walks in the opposition direction he should be out in no time. ")
+         levelthree()
+    elif choice == "right":
          print ("Gramps decides to investigate the milk aisle to figure out how to get out of the Grocery store. He reasons that since milk aisles are usually in the back of stores, if he walks in the opposition direction he should be out in no time. ")
          levelthree()
     else:
@@ -40,7 +84,13 @@ def leveltwo():
     if choice =="Keep Walking":
         print ("")
         levelfour()
+    if choice =="keep walking":
+        print ("")
+        levelfour()
     elif choice =="Stop":
+        print ("")
+        levelfive()
+    elif choice =="stop":
         print ("")
         levelfive()
 
@@ -70,4 +120,4 @@ def levelfive():
     playagain()
 
 #Start game below
-levelzero() 
+startmenu() 
