@@ -2,7 +2,6 @@
   margin: 0;
   height: 100%
   padding: 0;
-  font-family: Georgia;
 }
 
 body{
@@ -33,8 +32,8 @@ h1{
 
 h2{
   margin-top: -17px;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.7em;
+  font-family: "New Tegomin", serif;
+  font-size: 1.5em;
   text-align: center;
   font-weight: 400;
 }
@@ -108,4 +107,58 @@ body{
   background-color: #fff;
   color: #000; 
   transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+.innercard {
+  text-align: center;
+}
+
+.footercontainer{
+  text-align: center;
+  background-color: #212329
+  padding-bottom: 4rem;
+}
+
+.footer{
+  width: 100%;
+  height: 10vh;
+  background-image: linear-gradient(rgb(34, 30, 30),rgb(123,116,116));
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.innercard{
+  justify-content: center;
+  text-align: center;
+}
+
+.cardcontent{
+  height: 40%;
+  width: 90%;
+  background-image: linear-gradient(rgb(223,211,211), rgb(202,196,196));
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: px;
+}
+.cardcontent:hover,.cardcontent:active{
+background-image: linear-gradient(rgb(130,125,125), rgb(82,71,71));
 }
