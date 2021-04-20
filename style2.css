@@ -9,7 +9,6 @@ body {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
    background-color: #463822;
     background: linear-gradient(#456142, #463822);
     background-repeat: no-repeat;
@@ -20,9 +19,10 @@ body {
 
 .container {
   width: 800px;
-  height: 260px;
+  height: 265px;
   max-width: 80%;
   padding: 10px;
+  margin-top: 175px;
   border-radius: 5px;
   box-shadow: 0 0 10px 2px;
   box-sizing: border-box;
@@ -55,4 +55,26 @@ body {
   .container{
     height: 198px;
   }
+}
+
+.Backbutton{
+  background-color: cyan;
+  text-decoration: none;
+  border-radius: 15px;
+  width: 65px;
+  height: 18px;
+}
+
+.text2{
+  color: black;
+  font-size: 16px;
+}
+
+.Backbutton:hover,.Backbutton:active{
+  background-color: lightblue;
+  height: 50px;
+  width: 97px;
+  color: #000; 
+  transition: background-color 0.3s ease-in, color 0.2s ease-in;
+  font-size: 35px;
 }
