@@ -111,12 +111,60 @@ const textNodes = [
   },
   {
     id: 7,
-    text: 'Gramps stops because he realizes that the floor was glistening because of the cleaning product. He carefully steps around it and walks out the door. As soon as he steps out of the building, he wakes up. \n Escaped the Dream Ending.',
+    text: 'Gramps stops because he realizes that the floor was glistening because of the cleaning product. He carefully steps around it and walks out the door. As soon as he steps out of the building, he wakes up. \n Escaped the Dream.',
     options: [
       {
-        text: 'Phase 2',
+        text: 'Continue',
         nextText: 8
       },
+    ]
+  },
+  {
+    id: 8,
+    text: "Gramps wakes up from the dream and realizes today is the day. It is the day to go to Myrtle Beach. Once they are done packing, they set off to the open road. \n Does he turn the Radio on or leave it off?",
+    options: [
+      {
+        text: 'Turn it on',
+        nextText: 9
+      },
+      {
+        text: 'Leave it off',
+        nextText: 10
+      },
+    ]
+  },
+  {
+    id: 9,
+    text: 'He turns on the radio to have a relaxing car ride. They follow the GPS to what seems like a strange detour.',
+    options:[
+      {
+        text: 'Take the Detour',
+        nextText: 11
+      },
+      {
+        text: 'Take your own Path',
+        nextText: 12
+      },
+    ]
+  },
+  {
+    id: 10,
+    text: 'Gramps decides to leave the radio off and focuses on the road ahead. 5 Hours into the drive, he realizes that he needs gas quick. Unforunately, there is only one gas station nearby and it looks pretty run-down.... \n Does he go to the creepy gas station or keep driving on E?',
+    options:[
+      {
+        text: 'Creepy Gas Station',
+        nextText: 15
+      },
+      {
+        text: 'Keep Driving',
+        nextText: 16
+      }
+    ]
+  },
+  {
+    id: 11,
+    text: '3 hours into the detour, he realizes something is not right. His GPS says they are in Myrtle Beach but they are in rural farmland. Someone passes by and informs him that they are in Arkansas. Then it hits him, the radio caused the GPS to malfunction. Gramps Sighs. \n The Arkansas Ending.',
+    options:[
       {
         text: 'Restart',
         nextText: 2
@@ -124,8 +172,58 @@ const textNodes = [
     ]
   },
   {
-    id: 8,
-    text: 'Placeholder'
+    id: 12,
+    text: "Gramps decides that they will not heed the GPS's instructions and takes a path that feels more natural and ended up at South of the Border. Does he enter the souvenir shop or the firework shop?",
+    options:[
+      {
+        text: 'Souvenir',
+        nextText: 13
+      },
+      {
+        text: 'Firework',
+        nextText: 14
+      },
+    ]
+  },
+  {
+    id: 13,
+    text: 'Placeholder',
+    options:[
+      {
+        text: 'back',
+        nextText: 12
+      },
+    ]
+  },
+  {
+    id: 14,
+    text: 'Placeholder',
+    options:[
+      {
+        text: 'back',
+        nextText: 12
+      },
+    ]
+  },
+   {
+    id: 15,
+    text: 'Placeholder',
+    options:[
+      {
+        text: 'back',
+        nextText: 10
+      },
+    ]
+  },
+   {
+    id: 16,
+    text: 'Placeholder',
+    options:[
+      {
+        text: 'back',
+        nextText: 10
+      },
+    ]
   }
 ]
 
