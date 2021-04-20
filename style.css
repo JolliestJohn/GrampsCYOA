@@ -119,7 +119,7 @@ body{
 
 .footer{
   width: 100%;
-  height: 10vh;
+  height: 20%;
   background-image: linear-gradient(rgb(34, 30, 30),rgb(123,116,116));
   color: #fff;
   display: flex;
@@ -223,4 +223,19 @@ a:hover {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+}
+
+.Happy-Birthday{
+  font-size: 25px;
+}
+@media only screen and (min-width: 900px){
+  .bdayimg{
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .bdayimg{
+    width: 50%;
+  }
 }
