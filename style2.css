@@ -56,25 +56,3 @@ body {
     height: 198px;
   }
 }
-
-.Backbutton{
-  background-color: cyan;
-  text-decoration: none;
-  border-radius: 15px;
-  width: 65px;
-  height: 18px;
-}
-
-.text2{
-  color: black;
-  font-size: 16px;
-}
-
-.Backbutton:hover,.Backbutton:active{
-  background-color: lightblue;
-  height: 50px;
-  width: 97px;
-  color: #000; 
-  transition: background-color 0.3s ease-in, color 0.2s ease-in;
-  font-size: 35px;
-}
