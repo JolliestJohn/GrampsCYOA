@@ -187,44 +187,150 @@ const textNodes = [
   },
   {
     id: 13,
-    text: 'Placeholder',
+    text: 'When you enter the Souvenir shop, two items pop out immediately. Do you choose sombreros or matching T-Shirts for the family?',
     options:[
       {
-        text: 'back',
-        nextText: 12
+        text: 'T-Shirts',
+        nextText: 23
       },
+      {
+        text: 'Sombreros',
+        nextText: 24
+      }
     ]
   },
   {
     id: 14,
-    text: 'Placeholder',
+    text: 'Gramps purchases fireworks for a later event like a forth of july party. He leaves South of the Border and continues his journey onwards into Myrtle Beach.',
     options:[
       {
-        text: 'back',
-        nextText: 12
+        text: 'Continue',
+        nextText: 19
       },
     ]
   },
    {
     id: 15,
-    text: 'Placeholder',
+    text: 'Once you finish pumping gas, you walk into the mart. Immediately, Gramps stomach rumbles as he sees a lone hot dog staring at him, and calling. The more he looks at it, the more suspicious it seems but all reward comes from risk. What does he do?',
     options:[
       {
-        text: 'back',
-        nextText: 10
+        text: 'Buy a Lottery Ticket',
+        nextText: 25
       },
+      {
+        text: 'Eat the Hot Dog',
+        nextText: 22
+      }
     ]
   },
    {
     id: 16,
+    text: 'What did you think was going to happen? The car runs out of gas and he has a decision to make. Do they hitch-hike or call it a night?',
+    options:[
+      {
+        text: 'Hitch-hike',
+        nextText: 17
+      },
+      {
+        text: 'Sleep',
+        nextText: 18
+      }
+    ]
+  },
+  {
+    id: 17,
     text: 'Placeholder',
     options:[
       {
-        text: 'back',
-        nextText: 10
+        text: 'Back',
+        nextText: 16
       },
     ]
-  }
+  },
+  {
+    id: 18,
+    text: 'When they wake up, it is 500 years later. They marvel at the surroundings as they finish their drive. They find out, much to their disappointment, that Myrtle Beach no longer exists. \n The Future Ending',
+    options:[
+      {
+        text: 'Restart',
+        nextText: 2
+      }
+    ]
+  },
+  {
+    id: 19,
+    text: 'When he arrives, he passes by a Grocery store and remembers he needs to stock the pantry in the condo. \n Does he go or not?',
+    options:[
+      {
+        text: 'Continue Onward',
+        nextText: 20
+      },
+      {
+        text: 'Go to the Grocery Store',
+        nextText: 21
+      }
+    ]
+  },
+  {
+    id: 20,
+    text: '"It can be done later", he thinks to himself as he passes the Food Lion. All that matters right now is that they are at Myrtle Beach about to meet the family there. \n The Good Ending.',
+    options:[
+      {
+        text: 'Restart',
+        nextText: 2
+      }
+    ]
+  },
+  {
+    id: 21,
+    text: 'As he walks through the aisles, he finds himself in a familar situation. He loses track of where Grams is and his only point of reference is a cleaning aisle to the left..... and the milk aisle to the right. \n All a Dream Ending.',
+    options:[
+      {
+        text: 'Restart',
+        nextText: 2
+      }
+    ]
+  },
+  {
+    id: 22,
+    text: 'Suspicious hot-dogs should probably stay uneaten. After being rushed to the ER, doctors find an undiscovered bacteria within the food... and you got the honor of naming it. \n The Chuckitis Ending.',
+    options:[
+      {
+        text: 'Restart',
+        nextText: 2
+      }
+    ]
+  },
+  {
+    id: 23,
+    text: 'You get matching T-Shirts for the family and they all put it on for the final stretch of the journey. You notice another family with the same exact outfit as you as you hop into the car. When you arive at Myrtle Beach, you find that half the family is missing and was replaced by random people. \n The Doppelganger ending.',
+    options:[
+      {
+        text: 'Restart',
+        nextText: 2
+      }
+    ]
+  },
+  {
+    id: 24,
+    text: 'You get Sombreros for the entire family as you prepare for the final stretch of the journey. As you arrive at Myrtle Beach, everybody instantly realizes that their heads are itchy... \n The Lice Ending.',
+    options:[
+      {
+        text: 'Restart',
+        nextText: 2
+      }
+    ]
+  },
+  {
+    id: 25,
+    text: 'Placeholder',
+    options:[
+      {
+        text: 'Back',
+        nextText: 15
+      }
+    ]
+  },
 ]
 
 startGame()
