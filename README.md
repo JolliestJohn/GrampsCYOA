@@ -5,7 +5,4 @@ I project this to be done completely by May 17
 
 The first Phase, Escape the Dream is out April 7th!
 
-
-
-
-https://grampscyoa.tjprestosh.repl.co/
+The Second and final Phase, Drive to Vacation is almost complete!
